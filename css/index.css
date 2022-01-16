@@ -16,6 +16,10 @@ body{
 .info_area_paragraph{
     padding: 20px 0px;
     font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .bg{
