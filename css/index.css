@@ -1,0 +1,39 @@
+body{
+	background-color: 	black;
+    font-family: 'Roboto' serif;
+    color: white;
+    
+}
+.info_area_white{
+	
+	background: rgba(0, 0, 0, 0.4);;
+    padding: 25px;
+    
+    height: 100%;
+    
+}
+
+.info_area_paragraph{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.bg{
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info_div{
+    padding: 20px;
+}
+
+.h1_style{
+    font-size: 56px; 
+    border: solid white 4px;
+    
+    text-align: center;
+    width: 350px;
+
+}
