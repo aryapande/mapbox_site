@@ -1,64 +1,51 @@
-.logo{
-	height: 8%;
-	width: 8%;
-	padding: 10px;
-	float: left;
-	margin-bottom: 7px;
-
-}
-
-.navbar_container{
-	width: 95%;
+.about_box{
+	width: 90%;
 	margin: 0 auto;
-}
-
-
-header{
 	background-color: black;
+	margin-top: 20px;
+	padding: 5%;
 }
-header::after{
-	content: "";
-	display: table;
-	clear: both;
-}
-nav{
-	float: right;
-}
-
-nav ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav li{
-	display: inline-block;
-	margin-left: 50px;
-	font-size: 16px;
-	padding-top: 40px;
-	position: relative;
-}
-
-nav a{
-	color: red;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-nav a:hover{
+.about_box p{
+	font-size: 24px;
 	color: white;
-	text-decoration: none;
 }
-nav a::before{
-	content: '';
-	display: block;
-	height: 5px;
-	background-color: red;
-	position: absolute;
-	top: 0;
-	width: 0%;
-	
-	transition: all ease-in-out 250ms;
+.about_email{
+	font-size: 24px;
+	color: white;
 }
-nav a:hover::before{
-	width: 100%;
+.breakline{
+	border: 1px solid red;
+	width:100%;
 }
+
+.about_email:hover{
+    color: red;
+    text-decoration: none;
+}
+.about_email:focus{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b30000;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }

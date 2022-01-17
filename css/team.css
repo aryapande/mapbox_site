@@ -1,0 +1,66 @@
+.team_box{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.team_icon{
+    
+    margin-top: 25px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left:40%;
+}
+.team_inner_box{
+    border: solid white 2px;
+    margin: 20px;
+    
+}
+.team_inner_box h2{
+    text-align: center;
+    padding: 15px;
+}
+.team_inner_box p{
+    text-align: center;
+    padding: 15px;
+}
+.team_name_link{
+    text-decoration: none;
+    color: white;
+}
+.team_name_link:hover{
+    color: red;
+    text-decoration: none;
+}
+.team_inner_box a:focus{
+    color: red;
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b30000;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
